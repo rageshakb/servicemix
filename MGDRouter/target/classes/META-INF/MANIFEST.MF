@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1481108093040
+Build-Jdk: 1.7.0_76
+Built-By: ragesh
+Bundle-ManifestVersion: 2
+Bundle-Name: A Camel Spring-DM Route
+Bundle-SymbolicName: MGDRouter
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.malabargold.router;version="1.0.0",com.malabargold.r
+ outer.dao;uses:="org.hibernate,com.malabargold.router.entities";version
+ ="1.0.0",com.malabargold.router.entities;uses:="javax.persistence";vers
+ ion="1.0.0",com.malabargold.router.handlers;uses:="com.malabargold.rout
+ er.services,org.apache.camel,com.malabargold.router.entities";version="
+ 1.0.0",com.malabargold.router.services;uses:="com.malabargold.router.da
+ o,com.malabargold.router.entities";version="1.0.0"
+Import-Package: com.mysql.jdbc;version="[5.1,6)",javassist.util.proxy,ja
+ vax.persistence,org.apache.camel;version="[2.12,3)",org.apache.commons.
+ dbcp;version="[1.4,2)",org.hibernate,org.hibernate.cache,org.hibernate.
+ cfg,org.hibernate.proxy,org.springframework.dao.annotation,org.springfr
+ amework.orm.hibernate4
+Tool: Bnd-1.50.0
